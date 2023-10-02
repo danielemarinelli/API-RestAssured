@@ -1,0 +1,475 @@
+2023-09-13T14:56:36,711 [main] INFO  (RestAssuredListener.java:23) - 
+ Method GET
+ URI => http://localhost:3000/pizza
+ Request body => null
+ Response body => [
+    {
+        "id": 1,
+        "type": "Margherita",
+        "cost": 7,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "type": "Napoletana",
+        "cost": 9,
+        "id": 2,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "type": "Vegetarian",
+        "cost": 12,
+        "id": 3,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "type": "Four Seasons",
+        "cost": 8,
+        "id": 4,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "type": "Cheese&Peppers",
+        "cost": 7,
+        "id": 5,
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        }
+    },
+    {
+        "type": "Salmon",
+        "cost": 16,
+        "id": 6,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 12,
+        "type": "nutella",
+        "id": 7,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 12,
+        "type": "tuna",
+        "id": 8,
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        }
+    },
+    {
+        "cost": 11,
+        "type": "salame",
+        "id": 9,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 10,
+        "postId": 3,
+        "type": "eggs",
+        "id": 10,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 12,
+        "type": "4 formaggi",
+        "id": 11,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 12,
+        "type": "bella Roma",
+        "id": 12,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 12,
+        "type": "basilico",
+        "id": 13,
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        }
+    },
+    {
+        "cost": 9,
+        "type": "Cacio & Pepe",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 14
+    },
+    {
+        "cost": 9,
+        "type": "Cacio & Pepe",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 15
+    },
+    {
+        "cost": 9,
+        "type": "Mortadella",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 16
+    },
+    {
+        "cost": 9,
+        "type": "Acciughe",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 17
+    },
+    {
+        "cost": 14,
+        "type": "Acciughe & Prosciutto",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 18
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 19
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 20
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 21
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 22
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 23
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 24
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 25
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 26
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 27
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 28
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 29
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 30
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 31
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 32
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 33
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 34
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 35
+    },
+    {
+        "cost": 13,
+        "type": "Prosciutto",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 37
+    },
+    {
+        "cost": 13,
+        "type": "Prosciutto",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 38
+    },
+    {
+        "cost": 13,
+        "type": "Prosciutto",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 39
+    },
+    {
+        "cost": 19,
+        "type": "Aragosta",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 41
+    },
+    {
+        "cost": 19,
+        "type": "Aragosta",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 42
+    },
+    {
+        "cost": 19,
+        "type": "Zucchine",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 43
+    },
+    {
+        "cost": 19,
+        "type": "Zucchine&sausage",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 44
+    },
+    {
+        "cost": 19,
+        "type": "Zucchine&sausage",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 45
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 46
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 47
+    },
+    {
+        "cost": 9,
+        "type": "Onion frozen",
+        "takeaway": {
+            "online": "no",
+            "glovo": "no"
+        },
+        "id": 48
+    },
+    {
+        "cost": 21,
+        "type": "gamberi",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 49
+    },
+    {
+        "cost": 15,
+        "type": "funghi porcini",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 50
+    },
+    {
+        "cost": 11,
+        "type": "verdure grigliate",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 51
+    },
+    {
+        "cost": 21,
+        "type": "gamberi",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 52
+    },
+    {
+        "cost": 15,
+        "type": "funghi porcini",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 53
+    },
+    {
+        "cost": 11,
+        "type": "verdure grigliate",
+        "takeaway": {
+            "online": "yes",
+            "glovo": "yes"
+        },
+        "id": 54
+    }
+]

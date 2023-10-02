@@ -1,0 +1,22 @@
+[
+  {
+    "first_name": "Ale",
+    "last_name": "Mari",
+    "email": "am@caffe.eu.it",
+    "gender": "Male",
+    "phone": [
+      "3419000934",
+      "0619700934"
+    ],
+    "skills": {
+      "name": "Testing",
+      "proficiency": "High",
+      "java_level": 28
+    },
+    "address": {
+      "city": "Buffalo",
+      "street": "Fairways blvd",
+      "state": "NY"
+    }
+  }
+ ]

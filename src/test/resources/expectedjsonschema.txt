@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "cost": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "takeaway": {
+      "type": "object",
+      "properties": {
+        "online": {
+          "type": "string"
+        },
+        "glovo": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "online",
+        "glovo"
+      ]
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "cost",
+    "type",
+    "takeaway",
+    "id"
+  ]
+}

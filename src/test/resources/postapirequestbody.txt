@@ -1,0 +1,8 @@
+{
+      "cost": 9,
+      "type": "Onion frozen",
+      "takeaway": {
+        "online": "no",
+        "glovo": "no"
+      }
+    }
