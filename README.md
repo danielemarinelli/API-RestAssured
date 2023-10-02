@@ -3,6 +3,7 @@
 Fake REST APIs created using JSON Server is essential for running this automated test
 
 - Download node js, if not installed and verify the version
+- 
 $ node -v
 v16.13.1
 
@@ -36,16 +37,21 @@ $ npm -v
  }
   
 - Run the below command from command prompt
+  
 json-server --watch db.json
 
 By Default it will take localhost:3000,
+
 Now we can open URL http://localhost:3000/pizza http://localhost:3000/Employees or  in the browser 
 
 
 Allure must be installed 
 
+
 LAUNCH COMMANDS from LINE:
+
 mvn test -Dsuitename="./suites/allurereportapitest.xml"
+
 allure serve
 
 
